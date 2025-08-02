@@ -29,7 +29,7 @@ _Add your screenshots here if available (e.g. preview of the UI, dark mode, anim
 To run this project locally:
 
 ```bash
-git clone https://github.com/your-username/todo-list.git
+git clone https://github.com/mohamedhossamkaml/todo-list-react.git
 cd todo-list
 npm install
-npm start
+npm run div
