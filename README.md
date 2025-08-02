@@ -1,2 +1,35 @@
-# todo-list-react
-A personal learning project built with React, TailwindCSS, and Framer Motion. Exploring modern UI/UX techniques, category-based task management, and smooth animations. Made to improve my skills and share my progress with the world 🚀
+
+# 📝 Todo List - Learning Project
+
+A sleek and responsive Todo List app built with **React**, **TailwindCSS**, and **Framer Motion**.  
+Designed as a personal learning project to explore modern UI/UX practices, dynamic theming, and smooth animations.
+
+---
+
+## 🌟 Features
+
+- ✅ Add, edit, delete tasks
+- 🎨 Category-based task organization
+- 🌓 Dark mode support
+- 💫 Scroll-triggered and interactive animations (Framer Motion)
+- 📱 Fully responsive design (mobile-friendly)
+- ⚡️ Redux for state management
+- 🧠 Accessible and semantic structure
+
+---
+
+## 📸 Screenshots
+
+_Add your screenshots here if available (e.g. preview of the UI, dark mode, animations…)_
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/your-username/todo-list.git
+cd todo-list
+npm install
+npm start
