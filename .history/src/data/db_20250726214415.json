@@ -1,0 +1,57 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "text": "تحسين تصميم الـ Hero",
+      "completed": true,
+      "category": "work"
+    },
+    {
+      "id": "2",
+      "text": "مراجعة درس Tailwind",
+      "completed": false,
+      "category": "study"
+    },
+    {
+      "id": "3",
+      "text": "الذهاب للجيم",
+      "completed": false,
+      "category": "personal"
+    },
+    {
+      "id": "fbc7",
+      "text": "bcxzbxbz",
+      "completed": true,
+      "category": "study"
+    },
+    {
+      "id": "7bf6",
+      "text": "رءئرئرسي",
+      "completed": false,
+      "category": "study"
+    },
+    {
+      "id": "23d7",
+      "text": "ىلؤءىبءلتىيبءفى",
+      "completed": false,
+      "category": "study"
+    }
+  ],
+  "categories": [
+    {
+      "id": "work",
+      "label": "العمل",
+      "color": "accent"
+    },
+    {
+      "id": "study",
+      "label": "الدراسة",
+      "color": "blue-500"
+    },
+    {
+      "id": "personal",
+      "label": "شخصي",
+      "color": "green-500"
+    }
+  ]
+}
