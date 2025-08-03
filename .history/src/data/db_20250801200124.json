@@ -1,0 +1,67 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "text": "تحسين تصميم الـ Hero",
+      "completed": true,
+      "category": "work"
+    },
+    {
+      "id": "3",
+      "text": "الذهاب للجيم",
+      "completed": false,
+      "category": "personal"
+    },
+    {
+      "id": "c61f",
+      "text": "اشتغل علي Todo List ",
+      "completed": true,
+      "category": "work"
+    },
+    {
+      "text": "اذكر Html ",
+      "id": "9606",
+      "completed": false
+    },
+    {
+      "id": "e67c",
+      "text": "مش هنعمل محتوي ",
+      "completed": true,
+      "category": "study"
+    },
+    {
+      "id": "20e5",
+      "text": "مش ده الي كونا سوا ؟",
+      "completed": false,
+      "category": "personal"
+    },
+    {
+      "id": "f52e",
+      "text": "شمس مع الهوا ؟",
+      "completed": false,
+      "category": "study"
+    }
+  ],
+  "categories": [
+    {
+      "id": "work",
+      "label": "العمل",
+      "color": "accent"
+    },
+    {
+      "id": "study",
+      "label": "الدراسة",
+      "color": "blue-500"
+    },
+    {
+      "id": "personal",
+      "label": "شخصي",
+      "color": "green-500"
+    },
+    {
+      "id": "myHome",
+      "label": "المنزل ",
+      "color": "accent"
+    }
+  ]
+}
