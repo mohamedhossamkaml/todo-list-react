@@ -1,0 +1,99 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "text": "تحسين تصميم الـ Hero",
+      "completed": false,
+      "category": "work",
+      "urgent": true
+    },
+    {
+      "id": "3",
+      "text": "الذهاب للجيم",
+      "completed": true,
+      "category": "personal",
+      "urgent": true
+    },
+    {
+      "id": "c61f",
+      "text": "اشتغل علي Todo List ",
+      "completed": true,
+      "category": "work",
+      "urgent": true
+    },
+    {
+      "text": "اذكر Html ",
+      "id": "9606",
+      "completed": true,
+      "category": "study",
+      "urgent": true
+    },
+    {
+      "id": "e67c",
+      "text": "مش هنعمل محتوي ",
+      "completed": true,
+      "category": "study",
+      "urgent": true
+    },
+    {
+      "id": "20e5",
+      "text": "مش ده الي كونا سوا ؟",
+      "completed": false,
+      "category": "personal",
+      "urgent": true
+    },
+    {
+      "id": "f52e",
+      "text": "شمس مع الهوا ؟",
+      "completed": true,
+      "category": "study",
+      "urgent": true
+    },
+    {
+      "id": "2097",
+      "text": "dfdsgdsagdsa",
+      "completed": false,
+      "category": "myHome",
+      "urgent": true
+    },
+    {
+      "id": "fc95",
+      "text": "gvdsvgdsgesgds",
+      "completed": false,
+      "category": "mna",
+      "urgent": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "work",
+      "label": "العمل",
+      "color": "accent"
+    },
+    {
+      "id": "study",
+      "label": "الدراسة",
+      "color": "blue-500"
+    },
+    {
+      "id": "personal",
+      "label": "شخصي",
+      "color": "green-500"
+    },
+    {
+      "id": "myHome",
+      "label": "المنزل ",
+      "color": "accent"
+    },
+    {
+      "id": "mama",
+      "label": "mama",
+      "color": "accent"
+    },
+    {
+      "id": "mna",
+      "label": "mna",
+      "color": "accent"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+# اسم الـ Workflow الذي سيظهر في تبويب Actions في GitHub
+name: Basic CI
+
+# متى يتم تشغيل هذا الـ Workflow؟
+on:
+  # عند الدفع (push) إلى فرعي develop و main
+  push:
+    branches: [ main, develop ]
+  # وعند فتح أو تحديث Pull Request يستهدف فرعي develop و main
+  pull_request:
+    branches: [ main, develop ]
+
+# المهام (Jobs) التي سيتم تنفيذها
+jobs:
+  # يمكن تسمية المهمة أي اسم، هنا سميناها build
+  build:
+    # نوع النظام الذي ستعمل عليه المهمة (Ubuntu هو الأكثر شيوعاً)
+    runs-on: ubuntu-latest
+
+    # الخطوات (Steps) التي ستنفذها المهمة بالترتيب
+    steps:
+      # 1. سحب الكود من الـ repo إلى النظام المؤقت
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. إعداد بيئة العمل (مثال لـ Node.js)
+      #    إذا كان مشروعك Python، استبدل هذا الجزء بـ actions/setup-python@v4
+      #    مثال بايثون:
+      #    - name: Set up Python
+      #      uses: actions/setup-python@v4
+      #      with:
+      #        python-version: '3.10'
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # حدد إصدار Node.js الذي تستخدمه
+
+      # 3. تثبيت الاعتماديات (Dependencies)
+      #    في بايثون تكون: pip install -r requirements.txt
+      - name: Install dependencies
+        run: npm install
+
+      # 4. (اختياري لكن موصى به) تشغيل الـ Linter للتأكد من جودة الكود
+      #    إذا كان لديك أمر lint في package.json
+      - name: Run linter
+        run: npm run lint
+
+      # 5. تشغيل الاختبارات الآلية (أهم خطوة)
+      #    في بايثون تكون مثلاً: pytest
+      - name: Run tests
+        run: npm test
